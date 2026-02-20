@@ -1,0 +1,24 @@
+#container {
+    display: flex;
+    border: 2px;
+    border-radius: 5px;
+
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    background: linear-gradient(120deg, #0e0250, #270335, #230757);
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    box-shadow: inset;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
