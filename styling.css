@@ -12,13 +12,21 @@
 
 body {
     background: linear-gradient(120deg, #0e0250, #270335, #230757);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 button {
+    color: white;
+    background-color: rgb(4, 33, 128);
+    padding: 10px 20px;
     height: 40px;
     width: 80px;
     box-shadow: inset;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 40px;
+
+    box-shadow: 5px 5px rgb(65, 6, 114);
 
 }

@@ -20,7 +20,12 @@ p.onclick = () => {
     cho = 2;
 };
 
-sub.onclick = () => {
+
+
+
+
+
+ sub.onclick = setTimeout(() => {
     console.log("called");
     if (cho == null) {
         alert("select your choice");
@@ -40,6 +45,6 @@ sub.onclick = () => {
 
     }
 
-}
+},3000)
 
 
