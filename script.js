@@ -25,7 +25,8 @@ p.onclick = () => {
 
 
 
- sub.onclick = setTimeout(() => {
+ sub.onclick = ()=>
+ {setTimeout(() => {
     console.log("called");
     if (cho == null) {
         alert("select your choice");
@@ -45,6 +46,6 @@ p.onclick = () => {
 
     }
 
-},3000)
+},3000)}
 
 

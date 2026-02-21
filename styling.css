@@ -25,8 +25,20 @@ button {
     box-shadow: inset;
     margin-left: 10px;
     margin-right: 10px;
+    border: 2px;
+    /* //border-color: white; */
     border-radius: 40px;
 
     box-shadow: 5px 5px rgb(65, 6, 114);
+    animation: flicker 2s infinite alternate;
 
 }
+
+@keyframes flicker {
+    0%   { box-shadow: 6px 10px 10px 2px #ff4500; }
+    25%  { box-shadow: 3px 2px 15px 4px #ff6347; }
+    50%  { box-shadow: 0px 10px 20px 6px #ffa500; }
+    75%  { box-shadow: 3px 5px 12px 3px #ff8c00; }
+    100% { box-shadow: 6px 2px 18px 5px #ff4500; }
+  }
+  
