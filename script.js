@@ -26,7 +26,12 @@ p.onclick = () => {
 
 
  sub.onclick = ()=>
- {setTimeout(() => {
+ {
+    let a= document.getElementById("ani");
+    a.style.opacity="1";
+
+    setTimeout(() => {
+        a.style.opacity="0";
     console.log("called");
     if (cho == null) {
         alert("select your choice");

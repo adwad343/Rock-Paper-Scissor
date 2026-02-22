@@ -33,12 +33,25 @@ button {
     animation: flicker 2s infinite alternate;
 
 }
+#dot{
+    animation : blink 0.5s infinite;
+    display: inline;
+    
+
+}
+@keyframes blink {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100% {opacity: 0;}
+    
+}
 
 @keyframes flicker {
-    0%   { box-shadow: 6px 10px 10px 2px #ff4500; }
-    25%  { box-shadow: 3px 2px 15px 4px #ff6347; }
-    50%  { box-shadow: 0px 10px 20px 6px #ffa500; }
-    75%  { box-shadow: 3px 5px 12px 3px #ff8c00; }
-    100% { box-shadow: 6px 2px 18px 5px #ff4500; }
+    0%   { box-shadow: 6px 10px 10px 2px #0a466d; }
+    25%  { box-shadow: 3px 2px 15px 4px #260bbb; }
+    50%  { box-shadow: 0px 10px 20px 6px #ac1486; }
+    65%  { box-shadow: 10px 10px 20px 6px #4c2ac7; }
+    75%  { box-shadow: 3px 5px 12px 3px #730a8d; }
+    100% { box-shadow: 6px 2px 18px 5px #7821db; }
   }
   
